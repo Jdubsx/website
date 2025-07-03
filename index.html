@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jacob - Web3 Developer & Creator</title>
+          <meta name="description" content="Personal website of Jacob (@Jdubsx_) - Web3 developer, creator, and innovator. Explore my projects and connect with me.">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzIiIGhlaWdodD0iMzIiIHZpZXdCb3g9IjAgMCAzMiAzMiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHJlY3Qgd2lkdGg9IjMyIiBoZWlnaHQ9IjMyIiByeD0iOCIgZmlsbD0iIzEyMTIxMiIvPgo8dGV4dCB4PSI1IiB5PSIyMiIgZm9udC1mYW1pbHk9InNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTYiIGZvbnQtd2VpZ2h0PSI3MDAiIGZpbGw9IiNmZmZmZmYiPkpEPC90ZXh0Pgo8L3N2Zz4K">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles.css">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="nav">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <img src="X.png" alt="X Logo" class="nav-logo-img">
+                <span>jdubsx_</span>
+            </div>
+            <div class="nav-links">
+                <a href="#about">About</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+            </div>
+            <button class="nav-toggle" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero" id="about">
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="profile-image">
+                    <img src="profile.png" alt="Jacob" class="profile-photo">
+                </div>
+                <h1 class="hero-title">
+                    Hi, I'm <span class="gradient-text">Jacob</span>
+                </h1>
+                <p class="hero-subtitle">
+                    Web3 Developer & Digital Creator
+                </p>
+                <p class="hero-description">
+                    <!-- Replace this with your personal description -->
+                    Write your personal description here. Talk about your passion for Web3, 
+                    your background, what you're building, and what drives you in this space.
+                </p>
+                
+                <!-- Social Links -->
+                <div class="social-links">
+                    <a href="https://x.com/Jdubsx_" class="social-link twitter" target="_blank" rel="noopener noreferrer">
+                        <i class="fab fa-x-twitter"></i>
+                        <span>Twitter/X</span>
+                    </a>
+                    <a href="https://github.com/YOUR_USERNAME" class="social-link github" target="_blank" rel="noopener noreferrer">
+                        <i class="fab fa-github"></i>
+                        <span>GitHub</span>
+                    </a>
+                </div>
+
+                <!-- Kaito Yaps Stats -->
+                <div class="yaps-stats" id="yaps-stats">
+                    <div class="yaps-header">
+                        <h3>Kaito Yaps Score</h3>
+                        <p>Tokenized Attention Metrics</p>
+                    </div>
+                    <div class="yaps-grid" id="yaps-grid">
+                        <div class="yaps-loading">
+                            <i class="fas fa-spinner fa-spin"></i>
+                            <span>Loading Yaps data...</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Projects Section -->
+    <section class="projects" id="projects">
+        <div class="projects-container">
+            <div class="section-header">
+                <h2>Featured Projects</h2>
+                <p>Explore my latest work in Web3, blockchain, and digital innovation</p>
+            </div>
+            
+            <div class="projects-grid">
+                <!-- Project tiles will be dynamically added here -->
+                <div class="project-tile" data-category="web3">
+                    <div class="project-image">
+                        <div class="project-placeholder">
+                            <i class="fas fa-cube"></i>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>DeFi Protocol</h3>
+                        <p>A decentralized finance protocol built on Ethereum with advanced yield farming capabilities.</p>
+                        <div class="project-tags">
+                            <span class="tag">Solidity</span>
+                            <span class="tag">React</span>
+                            <span class="tag">Web3.js</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link">
+                                <i class="fas fa-external-link-alt"></i>
+                                View Project
+                            </a>
+                            <a href="#" class="project-link">
+                                <i class="fab fa-github"></i>
+                                Code
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-tile" data-category="nft">
+                    <div class="project-image">
+                        <div class="project-placeholder">
+                            <i class="fas fa-palette"></i>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>NFT Marketplace</h3>
+                        <p>A modern NFT marketplace with minting, trading, and royalty management features.</p>
+                        <div class="project-tags">
+                            <span class="tag">Next.js</span>
+                            <span class="tag">IPFS</span>
+                            <span class="tag">Ethereum</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link">
+                                <i class="fas fa-external-link-alt"></i>
+                                View Project
+                            </a>
+                            <a href="#" class="project-link">
+                                <i class="fab fa-github"></i>
+                                Code
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-tile" data-category="dao">
+                    <div class="project-image">
+                        <div class="project-placeholder">
+                            <i class="fas fa-users"></i>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>DAO Governance Platform</h3>
+                        <p>A comprehensive DAO management platform with voting, proposals, and treasury management.</p>
+                        <div class="project-tags">
+                            <span class="tag">TypeScript</span>
+                            <span class="tag">Hardhat</span>
+                            <span class="tag">GraphQL</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link">
+                                <i class="fas fa-external-link-alt"></i>
+                                View Project
+                            </a>
+                            <a href="#" class="project-link">
+                                <i class="fab fa-github"></i>
+                                Code
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-tile" data-category="games">
+                    <div class="project-image">
+                        <div class="project-placeholder">
+                            <i class="fas fa-gamepad"></i>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Snoozie Runner</h3>
+                        <p>An endless runner game built with HTML5 Canvas. Jump over obstacles and beat your high score in this addictive browser game!</p>
+                        <div class="project-tags">
+                            <span class="tag">JavaScript</span>
+                            <span class="tag">HTML5 Canvas</span>
+                            <span class="tag">Game Dev</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://jdubsx.github.io/snoozie-runner/" class="project-link" target="_blank">
+                                <i class="fas fa-external-link-alt"></i>
+                                Play Game
+                            </a>
+                            <a href="https://github.com/Jdubsx/snoozie-runner" class="project-link" target="_blank">
+                                <i class="fab fa-github"></i>
+                                Code
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-tile" data-category="tools">
+                    <div class="project-image">
+                        <div class="project-placeholder">
+                            <i class="fas fa-tools"></i>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Web3 Dev Tools</h3>
+                        <p>A collection of developer tools for Web3 development, including contract analyzers and debuggers.</p>
+                        <div class="project-tags">
+                            <span class="tag">Python</span>
+                            <span class="tag">CLI</span>
+                            <span class="tag">API</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link">
+                                <i class="fas fa-external-link-alt"></i>
+                                View Project
+                            </a>
+                            <a href="#" class="project-link">
+                                <i class="fab fa-github"></i>
+                                Code
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project Filter -->
+            <div class="project-filter">
+                <button class="filter-btn active" data-filter="all">All Projects</button>
+                <button class="filter-btn" data-filter="web3">Web3</button>
+                <button class="filter-btn" data-filter="nft">NFT</button>
+                <button class="filter-btn" data-filter="dao">DAO</button>
+                <button class="filter-btn" data-filter="games">Games</button>
+                <button class="filter-btn" data-filter="tools">Tools</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="contact-container">
+            <div class="section-header">
+                <h2>Let's Connect</h2>
+                <p>Interested in collaborating or have a project in mind? Let's talk!</p>
+            </div>
+            
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4>Email</h4>
+                            <p>hello@jdubs.xyz</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fab fa-x-twitter"></i>
+                        <div>
+                            <h4>Twitter/X</h4>
+                            <p>@Jdubsx_</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-globe"></i>
+                        <div>
+                            <h4>Website</h4>
+                            <p>jdubs.xyz</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="cta-section">
+                    <h3>Ready to build something amazing?</h3>
+                    <a href="mailto:hello@jdubs.xyz" class="cta-button">
+                        <i class="fas fa-paper-plane"></i>
+                        Get In Touch
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <h4>JDubs</h4>
+                    <p>Building the future, one block at a time.</p>
+                </div>
+                
+                <div class="footer-links">
+                    <div class="footer-section">
+                        <h5>Quick Links</h5>
+                        <a href="#about">About</a>
+                        <a href="#projects">Projects</a>
+                        <a href="#contact">Contact</a>
+                    </div>
+                    
+                    <div class="footer-section">
+                        <h5>Connect</h5>
+                        <a href="https://x.com/Jdubsx_" target="_blank">Twitter/X</a>
+                        <a href="#" target="_blank">GitHub</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2024 JDubs. All rights reserved.</p>
+                <div class="footer-social">
+                    <a href="https://x.com/Jdubsx_"><i class="fab fa-x-twitter"></i></a>
+                    <a href="#"><i class="fab fa-github"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html> 
